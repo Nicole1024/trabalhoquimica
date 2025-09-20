@@ -37,7 +37,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#img4, #img5 {
+#img4, #img5, #img6, #img7 {
     display: inline-block;
     width: 30%;      
     height: auto-fit;  
@@ -126,4 +126,27 @@ body {
 #fontes {
     text-align: center;
     margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #2c9bc7;
+    border-radius: 10px;
+    background-color: #e0f7fa;
+}
+#introducao-titulo {
+    text-align: center;
+}
+#ligacao-predominante {
+    text-align: center;
+}
+#geometria-titulo {
+    text-align: center;
+}
+#geometria-descricao {
+    text-align: center;
+}
+#condutividade-titulo {
+    text-align: center;
+}
+#condutividade-descricao {
+    text-align: center;
 }
