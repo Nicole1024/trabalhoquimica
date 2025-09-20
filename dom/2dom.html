@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>DOM </title>
+    </head>
+<body>
+<p id="intro">Document Object Model</p>
+<hr><hr><hr><br>
+<div id="resposta"></div>
+<script>
+let x=document.querySelector("#intro");
+
+document.querySelector("#resposta").innerHTML=`
+Propridades do elemento body<br><br>
+${x.parentNode.nodeName}<br>
+${x.parentNode.nodeValue}<br>
+${x.parentNode.nodeType} <br>
+<HR>
+Propridades do elemento P <br><br>
+${x.nodeName} <br>
+${x.nodeValue} <br>
+${x.nodeType} <br>
+<HR>
+Propridades do texto <br><br>
+${x.firstChild.nodeName} <br>
+${x.firstChild.nodeValue} <br>
+${x.firstChild.nodeType} <br>`;
+</script>
+</body>
+</html>

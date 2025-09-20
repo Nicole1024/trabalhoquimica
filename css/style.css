@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Fuzzy+Bubbles:wght@400;700&family=Pacifico&display=swap');
+
+body {
+    font-family: "Chewy", sans-serif;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#titulo {
+    color: blue;
+    font-size: flex;
+    text-align: center;
+}
+#divtitulo {
+    background-color: rgb(188, 223, 243);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#introducao {
+    text-align: justify;
+    margin: 20px;
+    font-size: flex;
+    line-height: 1.6;
+}
+#imagens {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+#imagens img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#img4, #img5 {
+    display: inline-block;
+    width: 30%;      
+    height: auto-fit;  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+#resposta1 {
+    display: none;
+
+}
+#erro1 {
+    display: none;
+}
+#pergunta2 {
+    display: none;
+}
+#resposta2 {
+    display: none;
+}
+#pergunta3 {
+    display: none;
+}
+#resposta3 {
+    display: none;
+}
+
+body {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#pergunta1, #pergunta2, #pergunta3 {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #2c9bc7;
+    border-radius: 10px;
+    background-color: #e0f7fa;
+}
+#resposta1, #resposta2, #resposta3 {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    background-color: #e8f5e9;
+    text-align: center;
+    font-size: 1.2em;
+    color: #2e7d32;
+}
+#erro1, #erro2, #erro3 {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #f44336;
+    border-radius: 10px;
+    background-color: #ffebee;
+    text-align: center;
+    font-size: 1.2em;
+    color: #c62828;
+}
+#desafio {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ff9800;
+    border-radius: 10px;
+    background-color: #fff3e0;
+}
+#rodape {
+    text-align: center;
+    padding: 10px;
+    background-color: #659aaf;
+    color: rgba(3, 30, 94, 0.563);
+    width: 100%;
+    bottom: 0;
+}
+#fontes-titulo {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+#fontes {
+    text-align: center;
+    margin-top: 10px;
+}
