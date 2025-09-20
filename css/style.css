@@ -11,7 +11,6 @@ body {
 }
 #titulo {
     color: blue;
-    font-size: flex;
     text-align: center;
 }
 #divtitulo {
@@ -23,7 +22,6 @@ body {
 #introducao {
     text-align: justify;
     margin: 20px;
-    font-size: flex;
     line-height: 1.6;
 }
 #imagens {
@@ -39,8 +37,7 @@ body {
 
 #img4, #img5, #img6, #img7 {
     display: inline-block;
-    width: 30%;      
-    height: auto-fit;  
+    width: 30%;  
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
